@@ -16,10 +16,6 @@ Bridge the "Activity vs. Impact" Gap:
 Develop a system that correlates data from Communication Platforms (If any) 
 with Execution Platforms (GitHub). 
 Define Your Own "True Contribution" Metrics:  
-Derive a set of metrics or a scoring algorithm that weighs the quality of work 
-over the quantity of artifacts. How do you value a critical bug fix vs. a feature 
-launch? How do you value a mentor vs. a coder? 
-Actionable Visibility:  
 
  
 
