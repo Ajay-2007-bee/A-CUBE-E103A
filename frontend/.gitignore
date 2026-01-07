@@ -1,0 +1,13 @@
+# Security
+.env
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node.js (Frontend)
+node_modules/
+dist/
+.vscode/
