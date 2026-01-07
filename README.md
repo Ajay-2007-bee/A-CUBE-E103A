@@ -26,12 +26,5 @@ they are not overlooked during performance reviews.
 The Core Outcome  
 A Manager’s dashboard to monitor his/her team or multiple teams. A visual 
 interface that allows a manager to monitor a single team or multiple squads. 
-This shouldn't just be a list of names and numbers, it must visualize the 
-disparity between "Perceived Activity" (e.g., raw commit counts or volume) 
-and "Actual Impact" (e.g., complexity solved or critical path work). It needs to 
-highlight the "Silent Architects" who might otherwise go unnoticed. 
-A tool that will monitor the Execution Platforms and collect the data based on 
-which you will quantify the contribution. It must automatically parse this data 
-to extract meaningful signals which will be the truth on which the value is 
-quantified. 
+ 
 
