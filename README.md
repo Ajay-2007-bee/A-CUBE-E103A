@@ -34,8 +34,3 @@ A tool that will monitor the Execution Platforms and collect the data based on
 which you will quantify the contribution. It must automatically parse this data 
 to extract meaningful signals which will be the truth on which the value is 
 quantified. 
-Your logic that quantifies the value of work and remains stable regardless of 
-whether the team size is 3 or 50. You must show that your scoring system 
-doesn't break or become incredibly noisy just because the team size grows 
-from 3 to 50 people. The value is to only rank the employees within a team; it 
-need not have any relation with the scores of employees in other teams.
