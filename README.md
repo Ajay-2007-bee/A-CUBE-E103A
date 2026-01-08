@@ -12,12 +12,6 @@ act merely as a router, passing work to others without adding value. When
 performance review season arrives the Manager often biases toward the loud 
 and active one whilst the actual silent architects feel undervalued. 
 Objectives: 
-Bridge the "Activity vs. Impact" Gap: 
-Develop a system that correlates data from Communication Platforms (If any) 
-with Execution Platforms (GitHub). 
-Define Your Own "True Contribution" Metrics:  
-Derive a set of metrics or a scoring algorithm that weighs the quality of work 
-over the quantity of artifacts. How do you value a critical bug fix vs. a feature 
-launch? How do you value a mentor vs. a coder? 
+
 
 
