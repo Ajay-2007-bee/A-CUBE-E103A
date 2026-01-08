@@ -22,13 +22,13 @@ class AuditTrail:
 
 class RetryEngine:
     def run(self, func: Callable, retries: int = 3, delay: float = 0.5):
-        for attempt in range(retries):
+        for attempt in range(1, retries + 1):
             try:
                 return func()
             except Exception as e:
-                if attempt == retries - 1:
-                    raise RuntimeError("Maximum retry attempts exceeded") from e
+                print(f"[Retry {attempt}/{retries}] {e}")
                 time.sleep(delay)
+        raise RuntimeError("Maximum retry attempts exceeded")
 
 
 class SystemHealth:
@@ -40,14 +40,14 @@ class SystemHealth:
 
     def report(self):
         print("\n--- SYSTEM HEALTH REPORT ---")
-        for k, v in self.metrics.items():
-            print(f"{k}: {v}")
+        for key, value in self.metrics.items():
+            print(f"{key}: {value}")
 
 
-def reconcile(entries, expected: int) -> bool:
-    status = len(entries) == expected
-    print("[Reconciliation]", "OK" if status else "FAILED")
-    return status
+def reconcile(entries, expected_count: int) -> bool:
+    success = len(entries) == expected_count
+    print("[Reconciliation]", "OK" if success else "FAILED")
+    return success
 
 
 def main():
@@ -55,7 +55,7 @@ def main():
     retry = RetryEngine()
     health = SystemHealth()
 
-    start = time.time()
+    start_time = time.time()
     audit.log("INFO", "Batch processing started")
 
     try:
@@ -71,7 +71,7 @@ def main():
     health.add("Total Processed", results["total_processed"])
     health.add("Successful", results["success"])
     health.add("Failed", results["failure"])
-    health.add("Execution Time (sec)", round(time.time() - start, 2))
+    health.add("Execution Time (sec)", round(time.time() - start_time, 2))
 
     audit.export()
     health.report()
