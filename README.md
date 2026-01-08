@@ -9,13 +9,7 @@ performance ratings. This creates an illusion where an employee is highly
 active in public channels, constantly tagging management, and creating the 
 illusion of leadership. However, their actual output might be minimal, or they 
 act merely as a router, passing work to others without adding value. When 
-performance review season arrives the Manager often biases toward the loud 
-and active one whilst the actual silent architects feel undervalued. 
-Objectives: 
-Bridge the "Activity vs. Impact" Gap: 
-Develop a system that correlates data from Communication Platforms (If any) 
-with Execution Platforms (GitHub). 
-Define Your Own "True Contribution" Metrics:  
+
 
  
 
