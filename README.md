@@ -24,5 +24,3 @@ Transform raw logs into a manager-friendly dashboard that highlights the
 "Silent Architects" those contributing high value with low visibility ensuring 
 they are not overlooked during performance reviews. 
 The Core Outcome  
-A Manager’s dashboard to monitor his/her team or multiple teams. A visual 
-interface that allows a manager to monitor a single team or multiple squads. 
